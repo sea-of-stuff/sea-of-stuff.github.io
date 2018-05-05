@@ -44,20 +44,20 @@ structure.
 ### Model
 
 - Node Model
-    - Node
+    - **Node**: A node is any physical device in the SOS network that can interact with other nodes by sending or receiving information to or from them. A node serves an access point to the SOS which is identifiable by a GUID. 
 - Data Model
-    - Atom
-    - Compound
-    - Asset/Versions
+    - **Atom**: An atom is an immutable sequence of bytes identified by a GUID, deterministically derived from hashing the atom's sequence of bytes
+    - **Compound**: A compound is a collection of SOS entities (atoms, compounds, etc.)
+    - **Asset/Versions**: An asset is a mutable collection of immutable versions, which are linked to each other to form a Merkle DAG. Each version refers to some content, which can be an atom or a compound.
 - Metadata Model
-    - Metadata
+    - **Metadata**
 - Users/Roles Model
-    - User
-    - Role
+    - **User**
+    - **Role**
 - Context Model
-    - Context
-    - Predicate
-    - Policy
+    - **Context**
+    - **Predicate**
+    - **Policy**
 
 <img src="images/SOS-model.png" height="700" alt="SOS Model">
 
@@ -72,28 +72,30 @@ and provides a set of services to manage the SOS model.
 
 ### Services
 
-- NDS - **Node Discovery Service**: allows nodes in the SOS to be discovered.
-- MDS - **Manifest-Data Service**: manages manifests and allows manifests and data stored in the SOS to be found.
-- Storage - **Storage Service**: abstracts storage for atoms.
+- NMS - **Node Management Service**: allows nodes in the SOS to be discovered.
+- MDMS - **Manifest-Data Management Service**: manages manifests and allows manifests and data stored in the SOS to be found.
+- SMS - **Storage Management Service**: abstracts storage for atoms.
 - MMS - **Metadata Management Service**: process metadata and abstracts the location of metadata.
-- USRO - **Users/Roles Service**: manages users and roles.
-- \*CMS - **Context Management Service**: manages contexts within the nodes and across the domain and codomain of contexts.
+- URMS - **Users/Roles Management Service**: manages users and roles.
+- CMS - **Context Management Service**: manages contexts within the nodes and across the domain and codomain of contexts.
 
 
 ## More info on the SOS design
 
 Check the following repository: [sos-docs](https://github.com/sea-of-stuff/sos-docs) (**private**)
 
+<!-- The SOS has been developed as part of the PhD thesis: "The Sea of Stuff: a Model to Manage Shared Mutable Data in a Distributed Environment". The thesis will be available at a later date. -->
+
 ## Comparison with similar systems
 
 See <a href="comparison.htm" target="_blank">comparison table</a>
 
-## Example applications
+<!-- ## Example applications
 
 - WebApp
 - SOS-WebDAV server
 - SOS WebArchive
-- git-to-sos
+- git-to-sos -->
 
 ---
 
