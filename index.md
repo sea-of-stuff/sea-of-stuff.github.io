@@ -82,7 +82,10 @@ and provides a set of services to manage the SOS model.
 
 ## More info on the SOS design
 
-Check the following repository: [sos-docs](https://github.com/sea-of-stuff/sos-docs) (**private**)
+- Check the following repository: [sos-docs](https://github.com/sea-of-stuff/sos-docs)
+- PhD thesis [here](https://sic2.me/resources/PhD-thesis-SOS-Conte.pdf).
+- Systems Research group 2017 presentation: available soon.
+- UK Systems Workshop 2019 (available soon): abstract, presentation.
 
 <!-- The SOS has been developed as part of the PhD thesis: "The Sea of Stuff: a Model to Manage Shared Mutable Data in a Distributed Environment". The thesis will be available at a later date. -->
 
@@ -101,8 +104,7 @@ See <a href="comparison.htm" target="_blank">comparison table</a>
 
 ## Download
 
-Download the stable releases from [here](https://github.com/sea-of-stuff/sos/releases) (**private**)
-or checkout the [latest code](https://github.com/sea-of-stuff/sos) (**private**).
+Download the stable releases from [here](https://github.com/sea-of-stuff/sos/releases) or checkout the [latest code](https://github.com/sea-of-stuff/sos).
 
 
 ## Contacts
